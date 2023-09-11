@@ -1,0 +1,10 @@
+^D:\3ETIM2023\PAM\ETANOL_GASOLINA\WINDOWS\RUNNER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/3etim2023/PAM/etanol_gasolina/windows -BD:/3etim2023/PAM/etanol_gasolina/build/windows --check-stamp-file D:/3etim2023/PAM/etanol_gasolina/build/windows/runner/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

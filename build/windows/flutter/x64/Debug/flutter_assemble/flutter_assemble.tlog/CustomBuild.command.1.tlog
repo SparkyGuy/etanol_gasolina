@@ -1,0 +1,28 @@
+^D:\3ETIM2023\PAM\ETANOL_GASOLINA\BUILD\WINDOWS\CMAKEFILES\9215A5BBF0ACDB6C62E718E5881241D5\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\flutter PROJECT_DIR=D:\3etim2023\PAM\etanol_gasolina FLUTTER_ROOT=C:\flutter FLUTTER_EPHEMERAL_DIR=D:\3etim2023\PAM\etanol_gasolina\windows\flutter\ephemeral PROJECT_DIR=D:\3etim2023\PAM\etanol_gasolina FLUTTER_TARGET=D:\3etim2023\PAM\etanol_gasolina\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=D:\3etim2023\PAM\etanol_gasolina\.dart_tool\package_config.json C:/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\3ETIM2023\PAM\ETANOL_GASOLINA\BUILD\WINDOWS\CMAKEFILES\3A1EE53F10FDF6708DC2459A619C5E9D\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\3ETIM2023\PAM\ETANOL_GASOLINA\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/3etim2023/PAM/etanol_gasolina/windows -BD:/3etim2023/PAM/etanol_gasolina/build/windows --check-stamp-file D:/3etim2023/PAM/etanol_gasolina/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

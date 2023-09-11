@@ -1,0 +1,10 @@
+D:/3etim2023/PAM/etanol_gasolina/build/windows/CMakeFiles/INSTALL.dir
+D:/3etim2023/PAM/etanol_gasolina/build/windows/CMakeFiles/ALL_BUILD.dir
+D:/3etim2023/PAM/etanol_gasolina/build/windows/CMakeFiles/ZERO_CHECK.dir
+D:/3etim2023/PAM/etanol_gasolina/build/windows/flutter/CMakeFiles/flutter_wrapper_plugin.dir
+D:/3etim2023/PAM/etanol_gasolina/build/windows/flutter/CMakeFiles/flutter_wrapper_app.dir
+D:/3etim2023/PAM/etanol_gasolina/build/windows/flutter/CMakeFiles/flutter_assemble.dir
+D:/3etim2023/PAM/etanol_gasolina/build/windows/flutter/CMakeFiles/INSTALL.dir
+D:/3etim2023/PAM/etanol_gasolina/build/windows/runner/CMakeFiles/etanol_gasolina.dir
+D:/3etim2023/PAM/etanol_gasolina/build/windows/runner/CMakeFiles/INSTALL.dir
+D:/3etim2023/PAM/etanol_gasolina/build/windows/runner/CMakeFiles/ALL_BUILD.dir
